@@ -1,11 +1,11 @@
-# 🚀 End-to-End Machine Learning Pipeline using DVC & AWS S3
+#  End-to-End Machine Learning Pipeline using DVC & AWS S3
 
 This project is a complete **MLOps pipeline** implementation inspired by *Day 5 – End-to-End ML Pipeline using DVC & AWS S3* by Vikash Das.  
 It demonstrates how to **build, automate, and version-control** a machine learning workflow using modern MLOps tools like **DVC** and **AWS S3**.
 
 ---
 
-## 🧠 **Project Overview**
+##  **Project Overview**
 
 The main goal of this project is to design and execute a **reproducible, automated ML pipeline** — covering everything from data ingestion to model evaluation — while maintaining scalability and traceability.
 
@@ -17,7 +17,7 @@ This project integrates:
 
 ---
 
-## ⚙️ **Pipeline Stages**
+##  **Pipeline Stages**
 
 | Stage | Description |
 |--------|--------------|
@@ -31,7 +31,7 @@ Each stage is defined and tracked in the `dvc.yaml` file, ensuring the entire wo
 
 ---
 
-## 🧩 **Tech Stack**
+##  **Tech Stack**
 
 - **Python 3.x**
 - **DVC (Data Version Control)**
@@ -41,7 +41,7 @@ Each stage is defined and tracked in the `dvc.yaml` file, ensuring the entire wo
 
 ---
 
-## 📁 **Project Structure**
+##  **Project Structure**
 
 ├── data/
 │ ├── raw/ # Raw dataset
@@ -58,7 +58,7 @@ Each stage is defined and tracked in the `dvc.yaml` file, ensuring the entire wo
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-## 🧮 **Core DVC Commands Used**
+##  **Core DVC Commands Used**
 
 ```bash
 # Initialize DVC
@@ -77,7 +77,7 @@ dvc stage add -n evaluate -d src/model_evaluate.py -p eval_params python src/mod
 dvc repro
 
 
-☁️ AWS Integration
+  AWS Integration
 
 Created an IAM user with S3 access policy
 
@@ -87,7 +87,7 @@ Set up S3 bucket as the DVC remote for data and model artifacts
 
 This ensures that every new data or model version is stored safely and can be retrieved anytime.
 
-🔍 Results
+Results
 
 ✅ A completely automated, version-controlled ML workflow
 ✅ Reproducible experiments using DVC
